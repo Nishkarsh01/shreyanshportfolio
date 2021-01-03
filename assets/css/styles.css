@@ -1,5 +1,8 @@
-body {
-  font-family: 'Montserrat';
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 #mainNav {
@@ -44,10 +47,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.masthead .masthead-heading {
-  font-size: 2.75rem;
-  line-height: 2.75rem;
-}
+
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }
