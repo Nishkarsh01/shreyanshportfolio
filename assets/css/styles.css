@@ -112,9 +112,8 @@ body {
   border-radius: 100%;
 }
 
-@media (max-width: 920px)
-{
-  .layer{
+@media (max-width: 920px) {
+  .layer {
     border-radius: 1%;
   }
 }
