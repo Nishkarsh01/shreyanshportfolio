@@ -240,3 +240,16 @@ p {
   font-size: 1.25rem;
   font-weight: 300;
 }
+.bg-theme {
+  background-color: #eb4559;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: '';
+  background: no-repeat center center;
+  background-size: 100% 100%;
+}
