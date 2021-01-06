@@ -234,8 +234,28 @@ p {
   .layer {
     border-radius: 1%;
   }
+  .masthead {
+    margin-top: -8%;
+  }
 }
 
+@media (max-width: 540px) {
+  .layer {
+    border-radius: 1%;
+  }
+  .masthead {
+    margin-top: -19%;
+  }
+}
+
+@media (max-width: 320px) {
+  .layer {
+    border-radius: 1%;
+  }
+  .masthead {
+    margin-top: -15%;
+  }
+}
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
