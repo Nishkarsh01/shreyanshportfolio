@@ -75,20 +75,21 @@
 
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item mx-0 mx-lg-1">
-              <a
-                href="#page-top"
-                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger active"
-              >
-                Portfolio</a
-              >
-            </li>
+         
             <li class="nav-item mx-0 mx-lg-1">
               <a
                 href="#about"
                 class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
               >
                 About</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                href="#portfolio"
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+              >
+                Portfolio</a
               >
             </li>
 
@@ -137,6 +138,8 @@
       </div>
     </header>
 
+ 
+
     <!--About Section-->
     <section class="page-section bg-theme text-white mb-0" id="about">
       <div class="container">
@@ -175,6 +178,112 @@
         </div>
       </div>
     </section>
+
+       <!--Portfolio Section-->
+       <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+          <!-- Portfolio Section Heading -->
+          <h2 class="page-section-heading text-center text-uppercase text-portfolioHeading mb-0">Portfolio</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+              <div class="divider-custom-line"></div>
+              <div class="divider-custom-icon"><i class="fas fa-laptop"></i></div>
+              <div class="divider-custom-line"></div>
+            </div>
+            <!--Portfolio Grid Items-->
+               
+        <div class="row justify-content-center">
+          <!-- Portfolio Item 1-->
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#portfolioModal1"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/images/tindog.jpeg"
+                alt=""
+              />
+            </div>
+          </div>
+    
+      
+        </div>
+      </section>
+
+          <!-- Portfolio Modals-->
+    <!-- Portfolio Modal 1-->
+    <div
+    class="portfolio-modal modal fade" 
+    id="portfolioModal1"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="portfolioModal1Label"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        
+       
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title-->
+                <h2
+                  class="portfolio-modal-title text-uppercase mb-0 text-portfolioHeading"
+                  id="portfolioModal1Label"
+                >
+                  Log Cabin
+                </h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-laptop"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image-->
+                <img
+                  class="img-fluid rounded mb-5"
+                  src="assets/images/tindog.jpeg"
+                  alt=""
+                />
+                <!-- Portfolio Modal - Text-->
+                <p class="mb-5">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Mollitia neque assumenda ipsam nihil, molestias magnam,
+                  recusandae quos quis inventore quisquam velit asperiores,
+                  vitae? Reprehenderit soluta, eos quod consequuntur itaque.
+                  Nam. <br> <br>
+                  <i class="fas fa-link"></i> <a href="https://github.com/SHREYANSH-sm/Tindog"> https://github.com/SHREYANSH-sm/Tindog</a> 
+                </p>
+                
+                <button class="btn btn-danger" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      
 
     <!--Contact Section-->
     <section class="page-section bg-contact text-white mb-0" id="contact">
@@ -232,6 +341,7 @@
             Write me an email
           </a>
         </div>
+        
       </div>
     </section>
 
