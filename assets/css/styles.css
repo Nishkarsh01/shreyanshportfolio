@@ -293,3 +293,19 @@ p {
   margin-right: auto;
   margin-left: auto;
 }
+
+.bg-contact {
+  background: url(../images/Octocat.jpg) no-repeat center center fixed;
+}
+
+.layerContact {
+  background-color: rgba(0, 0, 0, 0.93);
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 6%;
+  padding-top: 6%;
+  border-radius: 2%;
+}
