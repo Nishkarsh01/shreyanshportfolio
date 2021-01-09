@@ -350,3 +350,18 @@ p {
 
   opacity: 1;
 }
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #000000;
+  color: #fff;
+}
+
+a {
+  color: #eb4559;
+}
+
+.copyright {
+  background-color: #eb4559;
+}
