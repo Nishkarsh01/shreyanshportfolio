@@ -26,14 +26,14 @@ This is a Responsive Portfolio Website made with HTML, CSS, Bootstrap4 and JavaS
 
 Run the following command in the terminal:
 
-	git clone https://github.com/Nishkarsh01/shreyansh-portfolio.git
+	git clone https://github.com/Nishkarsh01/shreyanshportfolio.git
 or download the zip file from github.
     
 
 ## Usage
 After extracting the files,
 
-    cd shreyansh-portfolio
+    cd shreyanshportfolio
     open index.html
 
 ## Collaborate
