@@ -1,5 +1,5 @@
 # Shreyansh Portfolio Website
-This is a Responsive Portfolio Website made with HTML, CSS, Bootstrap4 and JavaScript.Feel free to copy, get ideas, no copyright issues. 
+This is a Responsive Portfolio Website made with HTML, CSS, Bootstrap4 and JavaScript. Feel free to copy, get ideas, no copyright issues. 
 
 ## Developed By 
 > Nishkarsh Dubb and Shreyansh Malhotra
