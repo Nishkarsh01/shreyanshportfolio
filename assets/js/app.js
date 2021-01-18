@@ -1,3 +1,4 @@
+// use scrollspy
 $('body').scrollspy({
   target: '#navbarResponsive',
   offset: 50,
